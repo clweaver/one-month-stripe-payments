@@ -19,6 +19,9 @@ gem 'bootstrap-sass'
 # Use Stripe for eccomerce  payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Use Figaro for securely managing creditionals
+gem 'figaro'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
